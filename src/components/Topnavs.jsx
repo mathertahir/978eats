@@ -3,7 +3,8 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
 import "../CSS/topnavs.css";
-import { FiShoppingCart } from "react-icons/fi";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 
 
 const Topnavs = () => {
@@ -28,22 +29,21 @@ const Topnavs = () => {
         </Nav>
         <Nav>
         <a href=''>
-                     <   FiShoppingCart  />
-                        <span  className='cart-item'>10</span>
+        <FontAwesomeIcon
+                            icon={faCartShopping}
+                            className="icon-modify"/>
+                        {/* <span  className='cart-item'>10</span> */}
                   </a>
                 
         </Nav>
        
         <Nav ms-auto>
-        <Button variant="primary" size="lg"  className='btn-custom'>
-        Primary button
-      </Button>{' '}
+        <button className="btn btn-custom ">Ceate A Business</button>
        </Nav>
        <Nav ms-auto>
-        <Button variant="primary" size="lg"  className='btn-custom'>
-        Primary button
-      </Button>{' '}
+        <button className="btn btn-custom ">Ceate A Business</button>
        </Nav>
+       
       </Navbar.Collapse>
     </Container>
   </Navbar>
