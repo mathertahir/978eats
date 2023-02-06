@@ -1,0 +1,7 @@
+.btn-custom{
+    margin-right: 10px;
+    background-image: linear-gradient(90deg,#8b0100,#fb0605 70%);
+    --bs-btn-hover-bg: #0b5ed7 !important;
+    font-size: 12px !important;
+  border-radius: 0.5rem !important;
+}
