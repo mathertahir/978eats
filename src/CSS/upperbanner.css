@@ -1,0 +1,77 @@
+
+@font-face {
+    font-family:Roboto ;
+    src: url(../../public/Robotofonts/Roboto-Regular.ttf);
+  }
+
+
+.upperbanner-dropdown{
+    background: #fff !important;
+  color: black;
+    background-color: #fff;
+    border-color: black;
+    border-radius: 0px;
+
+ 
+}
+
+.dropdown-toggle{
+    background: #fff;
+    color: black;
+    border-color: black;
+    border-radius: 0px;
+}
+
+.upperbanner-container{
+    margin: 25px;
+    
+    display: grid;
+    gap: 50px;
+    grid-template: repeat(auto-fill,minmax(18rem, 1fr))
+}
+.dropdown-container{
+    display:flex;
+    flex-direction: row;
+    gap:10px
+}
+
+.btn-custom{
+    margin-right: 10px;
+    background-image: linear-gradient(90deg,#8b0100,#fb0605 70%);
+    --bs-btn-hover-bg: #0b5ed7 !important;
+    font-size: 12px !important;
+  border-radius: 0px !important;
+color: #fff !important;
+padding-bottom: 12px;
+
+
+border: none;
+}
+
+.local-restaurants{
+    color:#fb0605 ;
+    font-family: 'Roboto';
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+.hungry{
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-family: 'Roboto';
+}
+
+.favurite{
+
+     font-family: 'Roboto';
+     font-weight: 400;
+     
+
+}
+
+.upper-banner-image{
+    max-width: 80%;
+}
