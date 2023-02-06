@@ -27,7 +27,10 @@
     
     display: grid;
     gap: 50px;
-    grid-template: repeat(auto-fill,minmax(18rem, 1fr))
+    grid-template: repeat(auto-fill,minmax(18rem, 1fr));
+    box-sizing: border-box;
+
+    
 }
 .dropdown-container{
     display:flex;
