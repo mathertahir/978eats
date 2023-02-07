@@ -15,7 +15,7 @@ const App = () => {
     <Upperbanner/>
    <Bikeanimation/>
    <FeaturedRestaurant/>
-   <Registersection/>
+    <Registersection/>
 
 
 

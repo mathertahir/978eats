@@ -9,8 +9,8 @@ import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 
 const Topnavs = () => {
   return (
-    <Navbar bg="white" expand="lg">
-    <Container>
+    <Navbar bg="white" expand="lg"  fixed="top">
+    <Container >
       <Navbar.Brand href="#home"> <img
               src= "images/978logo.svg"
               height="45px"

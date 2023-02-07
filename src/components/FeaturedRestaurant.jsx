@@ -16,7 +16,7 @@ const FeaturedRestaurant = () => {
 <div className='feature-heading'>
   <img src='images/res.webp' className='feature-image'></img> 
  <h2 className='featured '>Featured Restarants</h2>
- <button className="btn btn-custom ">Discover More</button>
+ <button className=" btn-discover   mt-lg-4">Discover More</button>
 
  </div>
   
