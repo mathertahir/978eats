@@ -3,6 +3,9 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Container } from 'react-bootstrap';
 import "../CSS/featuredrestaurant.css";
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+import ListGroup from 'react-bootstrap/ListGroup';
 
 const FeaturedRestaurant = () => {
   return (
@@ -20,7 +23,51 @@ const FeaturedRestaurant = () => {
       
        </Col>
     
-    <Col md={5}> Card Tags</Col>
+    <Col md={5}>
+      <div className='card-sections'>
+    <Card style={{ width: '100%' }}>
+      <Card.Img  src="images/card1.webp" />
+      <Card.Body>
+        <ul>
+     <li>Sauce</li>
+     <li>Sauce</li>
+     <li>Sauce</li>
+     </ul>
+
+        <Card.Title>La Cocina De Arismendy</Card.Title>
+        <Card.Text>
+        592 Essex St, Lawrence, MA 01840, USA
+        <ul className='d-flex'>
+<span className='bottom-card'>5.0</span>
+<span className='bottom-card'>1k</span>
+       </ul>
+        </Card.Text>
+  
+      </Card.Body>
+    </Card>
+    <Card style={{ width: '100%' }}>
+      <Card.Img variant="top" src="images/card1.webp" />
+      <Card.Body>
+        <ul>
+     <li>Sauce</li>
+     <li>Sauce</li>
+     <li>Sauce</li>
+     </ul>
+
+        <Card.Title>La Cocina De Arismendy</Card.Title>
+        <Card.Text>
+        592 Essex St, Lawrence, MA 01840, USA
+        <div className='d-flex'>
+<span className='bottom-card'>5.0</span>
+<span className='bottom-card'>1k</span>
+       </div>
+        </Card.Text>
+      
+      </Card.Body>
+    </Card>
+
+    </div>
+    </Col>
 </Row>
 
 

@@ -31,3 +31,13 @@ color: #fff !important;
 border: none;
 margin-top: 15px;
 }
+.bottom-card{
+    text-decoration: none;
+}
+.card-sections{
+    display: flex;
+    gap: 20px;
+}
+.d-flex{
+    gap: 20px;
+}
