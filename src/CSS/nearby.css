@@ -1,0 +1,63 @@
+@font-face {
+    font-family:Roboto ;
+    src: url(../../public/Robotofonts/Roboto-Regular.ttf);
+  }
+
+.nearby-main{
+    background: #fb0605;
+    padding-bottom: 25px;
+    position: relative;
+    align-items: center;
+    /* padding-top: 50px; */
+}
+.nearby{
+    position: absolute;
+    top: 75px;
+    /* left: 20px; */
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 80px;
+    margin-top: 30px !important;
+}
+.feature-image{
+    max-width: fit-content;
+  
+}
+.featured-main{
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+
+.nearby-side-image{
+    padding-top: 20px;
+}
+.nearbytwo{
+    padding-top: 70px;
+}
+
+.btn-nearby{
+    margin-right: 10px;
+    background: #000;
+    --bs-btn-hover-bg: #0b5ed7 !important;
+    font-size: 14px !important;
+  border-radius: 0px !important;
+color: #fff !important;
+
+
+border: none;
+margin-top: 15px !important;
+height: 50px;
+width: 120px;
+
+white-space: nowrap;
+text-align: center;
+}
+
+.nearby-side{
+    box-sizing: border-box;
+    width: 100%;
+  
+}

@@ -6,6 +6,7 @@ import Upperbanner from './components/Upperbanner';
 import Bikeanimation from './components/Bikeanimation';
 import FeaturedRestaurant from './components/FeaturedRestaurant';
 import Registersection from './components/Registersection';
+import Nearbyrestaurants from './components/Nearbyrestaurants';
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
    <Bikeanimation/>
    <FeaturedRestaurant/>
     <Registersection/>
+    <Nearbyrestaurants/>
 
 
 

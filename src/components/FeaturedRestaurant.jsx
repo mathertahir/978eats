@@ -15,8 +15,8 @@ const FeaturedRestaurant = () => {
     <Col md={7}>
 <div className='feature-heading'>
   <img src='images/res.webp' className='feature-image'></img> 
- <h2 className='featured '>Featured Restarants</h2>
- <button className=" btn-discover   mt-lg-4">Discover More</button>
+ <h2 className='featured '>Featured Restaurants</h2>
+ <button className=" btn-discover">Discover More</button>
 
  </div>
   
