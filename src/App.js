@@ -9,10 +9,12 @@ import FeaturedRestaurant from './components/FeaturedRestaurant';
 
 const App = () => {
   return (
-    <div><Topnavs/>
+    <div>
+      <Topnavs/>
     <Upperbanner/>
    <Bikeanimation/>
    <FeaturedRestaurant/>
+
     </div>
   
   )
