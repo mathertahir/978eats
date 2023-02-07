@@ -5,6 +5,7 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 import Upperbanner from './components/Upperbanner';
 import Bikeanimation from './components/Bikeanimation';
 import FeaturedRestaurant from './components/FeaturedRestaurant';
+import Registersection from './components/Registersection';
 
 
 const App = () => {
@@ -14,6 +15,9 @@ const App = () => {
     <Upperbanner/>
    <Bikeanimation/>
    <FeaturedRestaurant/>
+   <Registersection/>
+
+
 
     </div>
   

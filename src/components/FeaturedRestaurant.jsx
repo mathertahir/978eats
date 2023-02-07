@@ -37,10 +37,10 @@ const FeaturedRestaurant = () => {
         <Card.Title>La Cocina De Arismendy</Card.Title>
         <Card.Text>
         592 Essex St, Lawrence, MA 01840, USA
-        <ul className='d-flex'>
+        <div className='d-flex'>
 <span className='bottom-card'>5.0</span>
 <span className='bottom-card'>1k</span>
-       </ul>
+       </div>
         </Card.Text>
   
       </Card.Body>
