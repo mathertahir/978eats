@@ -9,7 +9,7 @@
     color: azure;
 }
 .register-image{
-    background-image: url("../../public/images/register.png");
+    background-image: url("../images/register.png");
     background-repeat: no-repeat;
 background-position: center;
 background-size: contain;
@@ -28,7 +28,7 @@ background-size: contain;
 }
 
 .register-banner{
-    background-image: url("../../public/images/registerbanner.jpg");
+    background-image: url("../images/registerbanner.jpg");
    height: 500px;
    width: 100%;
    background-repeat: no-repeat;
@@ -52,6 +52,7 @@ border: none;
 margin-top: 15px !important;
 height: 50px;
 width: 120px;
+font-weight: 500 !important;
 
 white-space: nowrap;
 text-align: center;

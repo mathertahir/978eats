@@ -7,6 +7,8 @@ import Bikeanimation from './components/Bikeanimation';
 import FeaturedRestaurant from './components/FeaturedRestaurant';
 import Registersection from './components/Registersection';
 import Nearbyrestaurants from './components/Nearbyrestaurants';
+import Testimonial from './components/Testimonial';
+import Family from './components/Family';
 
 
 const App = () => {
@@ -18,6 +20,8 @@ const App = () => {
    <FeaturedRestaurant/>
     <Registersection/>
     <Nearbyrestaurants/>
+    <Testimonial/>
+    <Family/>
 
 
 
