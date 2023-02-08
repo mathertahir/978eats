@@ -3,6 +3,7 @@
 }
 .register-background{
     background: black;
+    overflow: hidden;
 }
 .register-heading
 {
@@ -37,6 +38,7 @@ align-items: end;
 position: relative;
 }
 .register-downside{
+    overflow: hidden;
 
 }
 .btn-discover{

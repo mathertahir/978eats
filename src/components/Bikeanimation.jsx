@@ -6,7 +6,7 @@ const Bikeanimation = () => {
   return (
     <>
 
-<section>
+<section className='bike-animation-main'>
     <div className='road-size'>
 
     <img src='images/road.png' className='road-image'></img>

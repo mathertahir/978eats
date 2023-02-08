@@ -9,11 +9,12 @@ import Registersection from './components/Registersection';
 import Nearbyrestaurants from './components/Nearbyrestaurants';
 import Testimonial from './components/Testimonial';
 import Family from './components/Family';
+import { Container } from 'react-bootstrap';
 
 
 const App = () => {
   return (
-    <div>
+ <div>
       <Topnavs/>
     <Upperbanner/>
    <Bikeanimation/>
@@ -24,8 +25,8 @@ const App = () => {
     <Family/>
 
 
-
     </div>
+ 
   
   )
 }

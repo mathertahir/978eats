@@ -21,7 +21,7 @@ const Registersection = () => {
 <div fluid  className='register-downside'>
   <Row> 
     <Col>
- <div className='register-banner  '>
+ <div className='register-banner'>
     
 <div className='register-button-section'>
 <button className=" btn-discover ">Discover More</button>

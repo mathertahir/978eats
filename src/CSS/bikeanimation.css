@@ -1,18 +1,20 @@
 road-size-container{
     padding: 0%;
     margin: 0%;
+    overflow: hidden;
 }
 .road-image{
     width: 100%;
     position: absolute;
     padding-top: 170px;
+    overflow: hidden;
 }
 .bike-section{
     position: absolute;
     transform: translateX(-30%);
 
     z-index: 1;
-    overflow-x: hidden;
+    overflow: hidden;
   
 }
 .bike-image{
@@ -39,3 +41,6 @@ body::-webkit-scrollbar{
 }
 
 
+.bike-animation-main{
+    overflow: hidden;
+}
