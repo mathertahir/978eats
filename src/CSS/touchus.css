@@ -1,0 +1,27 @@
+.touchus-main{
+height: 500px;
+padding-top: 40px;
+
+}
+.contactus{
+    background-image: url("../images/contactus.png");
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 500px;
+    align-items: center;
+}
+.contact-heading{
+    text-align: center;
+    font-size: 70px;
+}
+.contact-button{
+    border: 0px !important;
+    border-radius: 0px !important;
+    background-image: linear-gradient(90deg, rgb(251, 6, 5), rgb(139, 1, 0) 70%);
+    padding: 10px 18.5px;
+
+}
+.contact-side-image{
+    width: 100%;
+}

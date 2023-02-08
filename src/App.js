@@ -10,6 +10,7 @@ import Nearbyrestaurants from './components/Nearbyrestaurants';
 import Testimonial from './components/Testimonial';
 import Family from './components/Family';
 import { Container } from 'react-bootstrap';
+import Touchus from './components/Touchus';
 
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
     <Nearbyrestaurants/>
     <Testimonial/>
     <Family/>
+    <Touchus/>
 
 
     </div>
