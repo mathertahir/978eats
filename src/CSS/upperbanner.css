@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family:Roboto ;
+    src: url(../Robotofonts/Roboto-Regular.ttf);
+  }
 
 
 .upperbanner-dropdown{
@@ -19,14 +22,14 @@
 }
 
 .upperbanner-container{
-    margin: 25px;
-    
-    display: grid;
-    gap: 50px;
-    grid-template: repeat(auto-fill,minmax(18rem, 1fr));
+    /* margin: 25px;
+     */
+    display: flex;
+
     box-sizing: border-box;
     padding-top: 60px;
     padding-bottom: 30px;
+    margin-top: 40px;
 
     
 }
@@ -52,7 +55,7 @@ border: none;
 .local-restaurants{
     color:#fb0605 ;
     font-family: 'Roboto';
-    font-size: 80px;
+    font-size: clamp(30px,6vw,70px) !important;
     text-transform: uppercase;
     font-weight: 700;
 
@@ -61,7 +64,7 @@ border: none;
     color: black;
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 70px;
+    font-size: clamp(40px,8.8vw,80px) !important;
     font-family: 'Roboto';
 }
 
@@ -73,6 +76,65 @@ border: none;
 
 }
 
-.upper-banner-image{
-    max-width: 80%;
+.form-select{
+  
+    border-radius: 0px !important;
+    border: 1px solid gray !important;
+    height: 50px !important;
 }
+
+.upper-banner-image{
+   height: 451px;
+}
+
+.btn-banner.btn{
+    border: 1px solid gray;
+    white-space: nowrap;
+    border-radius: 0px;
+    background-image: linear-gradient(90deg,#8b0100,#fb0605 70%);
+    color: #fff;
+    width: 100%;
+    height: 50px;
+}
+.upper-banner-heading{
+    padding-bottom: 20px;
+}
+
+
+
+@media only screen and (max-width: 991px) {
+   .upperbanner-container  {
+    display: flex;
+    flex-direction: column;
+
+    }
+  }
+  @media only screen and (max-width: 699px) {
+    .upper-banner-heading  {
+   text-align: center;
+ 
+     }
+   }
+   @media only screen and (max-width: 991px) {
+    .dropdown-container {
+  
+        display: flex;
+        flex-direction: column;
+ 
+     }
+   }
+   @media only screen and (max-width: 699px) {
+    .banner-des {
+  
+     text-align: center;
+ 
+     }
+   }
+   @media only screen and (max-width: 699px) {
+    .upper-banner-image {
+  
+     height: 183px;
+ 
+     }
+   }
+   

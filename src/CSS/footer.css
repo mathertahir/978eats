@@ -1,0 +1,45 @@
+.footer-main{
+    background: #fb0605;
+    height: 400px;
+    padding-top: 40px;
+}
+.footer-main-logo{
+    background-image: url("../images/footerbackground.png");
+     background-size: contain;
+    height: 300px;
+    background-repeat: no-repeat;
+    align-items: center;
+    background-origin: content-box;
+    padding-top: 20px;
+
+}
+.footerlogo{
+
+   
+}
+.footer-parent{
+  display: flex;
+  justify-content: center;
+
+}
+.footer-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+
+
+}
+.address{
+    background-size: 20px;
+}
+.footer-item ::before li{
+display: inline-block;
+margin-right: 10px;
+background-size: 20px;
+height: 10px;
+width: 10px;
+background-image: url("../images/mapmarker.svg");
+
+
+}

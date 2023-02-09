@@ -22,3 +22,13 @@ border: none;
 .myShadow{
   box-shadow: 4px 5px 15px #f04b4b26;
 }
+
+
+@media screen and (max-width:990px) {
+  .navbar>.container{
+    
+
+
+  }
+  
+}

@@ -1,4 +1,4 @@
-road-size-container{
+.road-size-container{
     padding: 0%;
     margin: 0%;
     overflow: hidden;
@@ -43,4 +43,12 @@ body::-webkit-scrollbar{
 
 .bike-animation-main{
     overflow: hidden;
+    
+}
+@media screen and (max-width:991px) {
+
+    .bike-animation-main{
+    display: none;
+    
+}
 }

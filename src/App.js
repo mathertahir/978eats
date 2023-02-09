@@ -11,22 +11,25 @@ import Testimonial from './components/Testimonial';
 import Family from './components/Family';
 import { Container } from 'react-bootstrap';
 import Touchus from './components/Touchus';
+import Footer from './components/Footer';
+import "./App.css"
 
 
 const App = () => {
   return (
- <div>
+<div>
       <Topnavs/>
     <Upperbanner/>
-   <Bikeanimation/>
-   <FeaturedRestaurant/>
+    <Bikeanimation/>
+    <FeaturedRestaurant/>
+    {/* 
+  
     <Registersection/>
     <Nearbyrestaurants/>
     <Testimonial/>
     <Family/>
     <Touchus/>
-
-
+    <Footer/> */}
     </div>
  
   

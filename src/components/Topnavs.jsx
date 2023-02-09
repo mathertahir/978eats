@@ -10,7 +10,7 @@ import React from 'react';
 
 const Topnavs = () => {
   return (
-    <Navbar bg="white" expand="lg"  fixed="top">
+    <Navbar bg="white" expand="md"  fixed="top">
     <Container >
       <Navbar.Brand href="#home"> <img
               src= "images/978logo.svg"

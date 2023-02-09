@@ -31,3 +31,17 @@ padding-top: 50px;
     padding-top: 20px;
     padding-bottom: 30px;
 }
+
+
+@media screen and (max-width:990px) {
+    .testimonial-background{
+        background-size: contain;
+        background-repeat: no-repeat;
+    
+        background-position: left;
+        padding-bottom: 20px;
+    }
+    
+
+    
+}
