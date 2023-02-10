@@ -27,13 +27,8 @@ const App = () => {
       <Testimonial />
       <Family />
       <Touchus />
-      {/* 
-  
- 
 
-  
-  
-    <Footer/> */}
+      <Footer />
     </div>
   );
 };

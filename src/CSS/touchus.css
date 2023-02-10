@@ -1,6 +1,7 @@
 .touchus-main {
-  height: 500px;
+  box-sizing: border-box;
   padding-top: 40px;
+  padding-bottom: 10px;
 }
 .contactus {
   background-image: url("../images/contactus.png");
