@@ -1,66 +1,75 @@
-.register-head{
- background: black;
+.register-head {
+  background: black;
 }
-.register-background{
-    background: black;
-    overflow: hidden;
+.register-background {
+  background: black;
+  overflow: hidden;
 }
-.register-heading
-{
-    color: azure;
+.register-heading {
+  color: azure;
 }
-.register-image{
-    background-image: url("../images/register.png");
-    background-repeat: no-repeat;
-background-position: center;
-background-size: contain;
+.register-image {
+  background-image: url("../images/register.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 
-    height: 130px;
+  height: 130px;
 
- margin-top: 3rem;
- margin-bottom: 3rem;
- align-items: center;
-
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  align-items: center;
 }
-.register-heading{
-    text-align: center;
-    font-size: 70px;
-     
+.register-heading {
+  text-align: center;
+  font-size: clamp(42px, 7vw, 110px);
 }
 
-.register-banner{
-    background-image: url("../images/registerbanner.jpg");
-   height: 500px;
-   width: 100%;
-   background-repeat: no-repeat;
-background-size: cover;
-align-items: end;
-position: relative;
+.register-banner {
+  background-image: url("../images/registerbanner.jpg");
+  height: 500px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: end;
+  position: relative;
 }
-.register-downside{
-    overflow: hidden;
-
+.register-downside {
+  overflow: hidden;
 }
-.btn-discover{
-    margin-right: 10px;
-    background-image: linear-gradient(90deg,#8b0100,#fb0605 70%);
-    --bs-btn-hover-bg: #0b5ed7 !important;
-    font-size: 14px !important;
+.btn-discover {
+  margin-right: 10px;
+  background-image: linear-gradient(90deg, #8b0100, #fb0605 70%);
+  --bs-btn-hover-bg: #0b5ed7 !important;
+  font-size: 14px !important;
   border-radius: 0px !important;
-color: #fff !important;
-padding-top: 15px !important;
+  color: #fff !important;
+  padding-top: 15px !important;
 
-border: none;
-margin-top: 15px !important;
-height: 50px;
-width: 120px;
-font-weight: 500 !important;
+  border: none;
+  margin-top: 15px !important;
+  height: 50px;
+  width: 120px;
+  font-weight: 500 !important;
 
-white-space: nowrap;
-text-align: center;
+  white-space: nowrap;
+  text-align: center;
 }
-.register-button-section{
-    position: absolute;
-    bottom: 50px;
-    left: 30px;
+.register-button-section {
+  position: absolute;
+  bottom: 50px;
+  left: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .register-button-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    left: 0% !important;
+  }
+  .btn-discover {
+    width: 100%;
+  }
 }

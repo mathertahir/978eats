@@ -11,11 +11,11 @@ const Touchus = () => {
     <Container>
       <div className="touchus-main">
         <Row>
-          <Col md={12}>
-            <div className="contactus">
-              <h1 className="contact-heading">Get in Touchwith us</h1>
-            </div>
-          </Col>
+          <div className="contactus">
+            <h1 className="contact-heading m-0 text-center  f-60">
+              Get in Touchwith us
+            </h1>
+          </div>
         </Row>
         <Row>
           <Col md={8}>
@@ -23,7 +23,7 @@ const Touchus = () => {
               <Col md={6}>
                 {" "}
                 <Form>
-                  <Form.Group className="mb-3" >
+                  <Form.Group className="mb-3">
                     <Form.Label>Name</Form.Label>
                     <Form.Control type="text" />
                   </Form.Group>
@@ -37,30 +37,33 @@ const Touchus = () => {
                   </Form.Group>
                 </Form>
               </Col>
-
             </Row>
             <Row>
-                <Col md={12}>
+              <Col md={12}>
                 <Form>
-                <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-        <Form.Label>Message</Form.Label>
-        <Form.Control as="textarea" rows={3} />
-      </Form.Group>
+                  <Form.Group
+                    className="mb-3"
+                    controlId="exampleForm.ControlTextarea1"
+                  >
+                    <Form.Label>Message</Form.Label>
+                    <Form.Control as="textarea" rows={3} />
+                  </Form.Group>
                 </Form>
-
-                </Col>
-
+              </Col>
             </Row>
             <Row>
-                <Col md={3}>
-                    <Button className="contact-button">
-                     SEND MESSAGE
-                    </Button>
-                </Col>
+              <Col md={3}>
+                <Button className="contact-button">SEND MESSAGE</Button>
+              </Col>
             </Row>
           </Col>
-          <Col md={4}> 
-          <Container><img src="images/contactside.webp" className="contact-side-image"></img></Container>
+          <Col md={4}>
+            <Container className="pt-4">
+              <img
+                src="images/contactside.webp"
+                className="contact-side-image"
+              ></img>
+            </Container>
           </Col>
         </Row>
       </div>

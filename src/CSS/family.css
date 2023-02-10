@@ -1,115 +1,125 @@
-.family-main{
-    background: #000;
-    height: 1000px;
-  
+.family-main {
+  background: #000;
+  /* height: 1000px; */
+  box-sizing: border-box;
 }
 
-.family-heading{
-    color: white;
-    padding-top: 60px;
-    text-align: center;
-    font-size: 60px;
+.family-heading {
+  color: white;
+  padding-top: 60px;
+  text-align: center;
+  font-size: clamp(30px, 4vw, 60px);
 }
-.family-card{
+.family-card {
   align-items: center;
-    background: #505050;
+  background: #505050;
   height: 300px;
-padding: top 50px;
-align-items: center;
-
-
-
+  padding: top 50px;
+  align-items: center;
 }
 
-.card-head{
-    color: white;
-    font-size: medium;
+.card-head {
+  color: white;
+  font-size: medium;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.card-des {
+  color: white;
+  font-size: small;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.card-image {
+  height: 60px;
+  width: 60px;
+  margin-bottom: 10px;
+}
+.card-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.family-card.card {
+  background: #505050;
+  border: 0px !important;
+  border-radius: 0px !important;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.family-card.card:hover {
+  background: #50505078;
+}
+.family-card-section {
+  padding-top: 30px;
+}
+
+.family-main-image {
+  object-fit: fill;
+  width: 100%;
+}
+.family-main-side {
+  overflow: hidden;
+  padding-right: 20px;
+}
+.family-main-parent {
+}
+.family-side-heading {
+}
+.family-lower {
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+.checkout {
+  color: #fff;
+  font-size: 25px;
+}
+.download {
+  font-size: 100px;
+  color: #fb0605;
+  font-weight: 500;
+  line-height: 100px;
+  text-transform: uppercase;
+}
+.android {
+  color: #fff;
+  font-size: 40px;
+}
+.family-button-icon {
+  height: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.btn-family {
+  margin: 10px;
+  border-radius: 0px !important;
+  border: 0px !important;
+  background-image: linear-gradient(90deg, rgb(251, 6, 5), rgb(139, 1, 0) 70%);
+}
+.family-button-label {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 991px) {
+  .family-lower {
     text-align: center;
-    margin-bottom: 10px;
+  }
 }
-.card-des{
-    color: white;
-    font-size: small;
+
+@media screen and (max-width: 991px) {
+  .download {
     text-align: center;
-    margin-bottom: 10px;
-    
-}
-
-.card-image{
-    height: 60px;
-    width: 60px;
-    margin-bottom: 10px;
-}
-.card-detail{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-}
-
- .family-card.card{
-    background: #505050;
-    border: 0px !important;
-    border-radius: 0px !important;
-    padding-top: 40px;
-    padding-bottom: 40px;
-
-}
-
-.family-card.card:hover{
-    background:#50505078;
-}
-.family-card-section{
-    padding-top: 30px;
-}
-
-.family-main-image{
-
-object-fit: fill; 
- width: 100%; 
-
-
-  
-}
-.family-main-side{
-overflow: hidden;
-padding-right: 20px;
-}
-.family-main-parent{
-    padding-left: 20px;
-    padding-right: 20px;
-}
-.family-side-heading{
-  
-
-}
-.family-lower{
-    padding-top: 20px;
-
-}
-.checkout{
-    color: #fff;
-    font-size: 25px;
-}
-.download{
-color: #fb0605;
-font-size: 90px;
-}
-.android{
-    color: #fff;
     font-size: 40px;
+  }
 }
-.family-button-icon{
-    height: 20px;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-.btn-family{
-    margin: 10px;
-    border-radius: 0px !important;
-    border: 0px !important;
-    background-image: linear-gradient(90deg, rgb(251, 6, 5), rgb(139, 1, 0) 70%);;
-}
-.family-button-label{
-    font-size: 15px;
+
+@media screen and (max-width: 767px) {
+  .btn-family {
+    width: 100%;
+    padding: 0% !important;
+    margin: 0% !important;
+  }
 }
