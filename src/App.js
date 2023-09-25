@@ -9,15 +9,25 @@ import Registersection from "./components/Registersection";
 import Nearbyrestaurants from "./components/Nearbyrestaurants";
 import Testimonial from "./components/Testimonial";
 import Family from "./components/Family";
-import { Container } from "react-bootstrap";
+
 import Touchus from "./components/Touchus";
 import Footer from "./components/Footer";
 import "./App.css";
 
+import PhaseList from "./components/Phase/List/PhaseList";
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+
+
 const App = () => {
   return (
+
+    
     <div>
       <Topnavs />
+
       <Upperbanner />
       <Bikeanimation />
       <FeaturedRestaurant />
@@ -27,7 +37,7 @@ const App = () => {
       <Testimonial />
       <Family />
       <Touchus />
-
+     <PhaseList/>
       <Footer />
     </div>
   );

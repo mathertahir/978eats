@@ -1,0 +1,13 @@
+.label {
+  font-size: 12px !important;
+  color: black !important;
+  font-weight: 400 !important;
+}
+.control {
+  border-radius: 5px !important;
+  border-color: red !important;
+}
+.phase-main {
+  background-color: aqua !important;
+  width: 40%;
+}
